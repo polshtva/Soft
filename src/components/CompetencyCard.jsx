@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
 
-export default function CompetencyCard({competency}){
-    return (
-        <div className="card">
-          <h3>Компетенция: {competency}</h3>
-        </div>
-      );
+export default function CompetenceCard({ id, title, description, proficiency, onDelete }) {
+  return (
+    <div className="competence-card">
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <p>Уровень освоения: {proficiency}%</p>
+      <button onClick={() => onDelete(id)}>Удалить</button>
+    </div>
+  );
 }
