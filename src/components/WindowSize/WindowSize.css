@@ -1,0 +1,20 @@
+.style-width, .style-height {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .style-width::before,
+  .style-height::before {
+    content: "Window ";
+    font-weight: bold;
+  }
+  
+  .style-width {
+    color: #007bff;
+  }
+  
+  .style-height {
+    color: #28a745; 
+  }
+  
