@@ -1,0 +1,37 @@
+button {
+  margin-bottom: 10px;
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.timer {
+  padding: 40px;
+  background-color: aqua;
+  margin-top: 10px;
+  text-align: center; 
+}
+
+.timer__data {
+  color: white;
+  font-size: 50px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  flex-wrap: wrap; 
+}
+
+.btn__stop, .btn__start {
+  flex: 1; 
+  max-width: 200px; 
+}

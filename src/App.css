@@ -2,6 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  background-color: #a3b0c0;
 }
 
 .logo {
@@ -36,6 +37,24 @@
   padding: 2em;
 }
 
+.title__data{
+  margin-top: 10px;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.title{
+  color: blue;
+}
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
